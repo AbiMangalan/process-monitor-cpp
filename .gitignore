@@ -1,41 +1,76 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.ipch
+*.VC.db
+*.VC.VC.opendb
+*.VC.opendb
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build folders
+/build/
+/cmake-build-*/
+/bin/
+/out/
+/dist/
+/Debug/
+/Release/
+/x64/
+/x64/Debug/
+/x64/Release/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+Makefile
+
+# Compiled object files, libs, executables
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.o
 *.so
-*.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
 *.lib
-
-# Executables
+*.a
 *.exe
 *.out
 *.app
 
-# debug information files
-*.dwo
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Package managers and caches
+.vcpkg/
+.vcpkg-root/
+packages/
+.cmake/
+CMakeSettings.json
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+*~
+
+# Windows / OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test/coverage
+coverage/
+*.gcda
+*.gcno
+*.gcov
+lcov-report/
+
+# Misc
+.DS_Store
