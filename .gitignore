@@ -1,58 +1,37 @@
 # Visual Studio
 .vs/
-*.vcxproj*
-*.sln
 *.suo
 *.user
 *.userosscache
 *.sdf
 *.ipch
 *.VC.db
-*.VC.VC.opendb
 *.VC.opendb
 
 # Build folders
-/build/
-/cmake-build-*/
-/bin/
-/out/
-/dist/
 /Debug/
 /Release/
 /x64/
 /x64/Debug/
 /x64/Release/
-
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-CTestTestfile.cmake
-Testing/
-Makefile
+/bin/
+/out/
+/dist/
 
 # Compiled object files, libs, executables
 *.obj
 *.o
-*.so
+*.pdb
+*.idb
+*.ilk
 *.dll
 *.lib
-*.a
 *.exe
-*.out
-*.app
 
 # IDE / Editor
 .vscode/
 .idea/
 *.iml
-
-# Package managers and caches
-.vcpkg/
-.vcpkg-root/
-packages/
-.cmake/
-CMakeSettings.json
 
 # Logs and temp
 *.log
@@ -65,7 +44,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Test/coverage
+# Test/coverage (if you add tests later)
 coverage/
 *.gcda
 *.gcno
